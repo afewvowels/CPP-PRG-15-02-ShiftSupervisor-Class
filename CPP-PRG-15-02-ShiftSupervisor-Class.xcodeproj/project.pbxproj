@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		259307951FCEF0B300F251B6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 259307941FCEF0B300F251B6 /* main.cpp */; };
+		2593079D1FCEF0C400F251B6 /* Employee.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2593079B1FCEF0C400F251B6 /* Employee.cpp */; };
+		259307A01FCEF0E600F251B6 /* ShiftSupervisor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2593079E1FCEF0E600F251B6 /* ShiftSupervisor.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		259307911FCEF0B300F251B6 /* CPP-PRG-15-02-ShiftSupervisor-Class */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CPP-PRG-15-02-ShiftSupervisor-Class"; sourceTree = BUILT_PRODUCTS_DIR; };
 		259307941FCEF0B300F251B6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		2593079B1FCEF0C400F251B6 /* Employee.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Employee.cpp; sourceTree = "<group>"; };
+		2593079C1FCEF0C400F251B6 /* Employee.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Employee.hpp; sourceTree = "<group>"; };
+		2593079E1FCEF0E600F251B6 /* ShiftSupervisor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ShiftSupervisor.cpp; sourceTree = "<group>"; };
+		2593079F1FCEF0E600F251B6 /* ShiftSupervisor.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ShiftSupervisor.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				259307941FCEF0B300F251B6 /* main.cpp */,
+				2593079B1FCEF0C400F251B6 /* Employee.cpp */,
+				2593079C1FCEF0C400F251B6 /* Employee.hpp */,
+				2593079E1FCEF0E600F251B6 /* ShiftSupervisor.cpp */,
+				2593079F1FCEF0E600F251B6 /* ShiftSupervisor.hpp */,
 			);
 			path = "CPP-PRG-15-02-ShiftSupervisor-Class";
 			sourceTree = "<group>";
@@ -120,6 +130,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				259307951FCEF0B300F251B6 /* main.cpp in Sources */,
+				2593079D1FCEF0C400F251B6 /* Employee.cpp in Sources */,
+				259307A01FCEF0E600F251B6 /* ShiftSupervisor.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
